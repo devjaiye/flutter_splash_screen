@@ -2,7 +2,7 @@
 
 The splash screen documentation
 
-###Widgets Used:
+#Widgets Used:
 
 - Container
 - Text

@@ -1,16 +1,19 @@
-# flutter_splash_screen
+# Splash Screen -Flutter
 
-Splash Screen
+The Splash Screen is the first screen visible to the user when the application’s launched. Splash screen is one of the most vital screens in the application since it’s the user’s first experience with the application.
 
-## Getting Started
+Splash screens are used to display some animations (typically of the application logo) and illustrations while some data for the next screens are fetched. (Journal Dev) 
 
-This project is a starting point for a Flutter application.
+### Widgets Used:
 
-A few resources to get you started if this is your first Flutter project:
+- Container
+- Text
+- CircleAvatar
+- Column
+- Icon
+- Padding
+- Stack.. more
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Demo: 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Preview](https://media.giphy.com/media/UuSkWhrMxw9Ihj3X6n/giphy.gif)

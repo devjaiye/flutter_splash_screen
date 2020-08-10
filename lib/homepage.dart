@@ -15,7 +15,13 @@ class Homepage extends StatefulWidget{
 class _HomePage extends State<Homepage>{
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+
+    //..Handles the backStack and AppBar Arrow
+    return WillPopScope(
+      onWillPop: () {
+        //controls back press...
+      },
+    child: Scaffold(
       body: Stack(
         fit: StackFit.expand,
         children: <Widget>[
@@ -34,7 +40,7 @@ class _HomePage extends State<Homepage>{
           )
         ],
       )
-    );
+    ));
   }
 
 }
